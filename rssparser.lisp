@@ -220,7 +220,7 @@
             (:div :class "label" "Title:") (:input :type "text" :id "TitleToAdd" :placeholder "e.g. KiTTY") (:br) (:br)
             (:div :class "explanation" "Please type the URL of the website you want to make an RSS feed of.") (:br)
             (:div :class "label" "URL:") (:input :type "text" :id "URLToAdd" :placeholder "e.g. http://www.9bis.net/kitty/?action=news&zone=en") (:br) (:br)
-            (:b "CSS Selectors:") (:a :href "http://www.w3schools.com/cssref/trysel.asp" :target "_blank" "[?]") (:br)
+            (:b "CSS Selectors:") (:a :href "https://www.w3schools.com/cssref/trysel.asp" :target "_blank" "[?]") (:br)
             (:div :class "explanation" (str (concatenate 'string "Please type the single entry selector of the feed. For a blog, this is usually a DIV named \"article\" or similar. RSSParser.lisp will use this selector as the container selector for the following elements."))) (:br)
             (:div :class "label" "Selector:") (:input :type "text" :id "EntrySelectorToAdd" :placeholder "e.g. .news") (:br) (:br)
             (:div :class "explanation" "Please type the title selector of the feed. This is usually the headline inside the entry selector.") (:br)
@@ -235,7 +235,7 @@
                      "Cancel"))
       (:div :id "ajaxtable")
       (:div :id "footer"
-            (:a :href "http://bitbucket.org/tux_/rssparser.lisp" :target "_blank" "Powered by RSSParser.lisp"))
+            (:a :href "https://code.rosaelefanten.org/rssparser.lisp" :target "_blank" "Powered by RSSParser.lisp"))
       (:script :type "text/javascript"
                (str (ps (request-table))))))))
 
